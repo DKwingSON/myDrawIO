@@ -1,20 +1,20 @@
-<mxfile host="app.diagrams.net" modified="2021-06-20T07:25:19.678Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.106 Safari/537.36" etag="ATloaphHEPusIabCsYLQ" version="14.8.0" type="github">
+<mxfile host="app.diagrams.net" modified="2021-06-20T07:34:24.884Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.106 Safari/537.36" etag="SW08YNpxRKATBdaGfvC4" version="14.8.0" type="github">
   <diagram id="xvSNXtXD1GJoViZldcHa" name="Page-1">
     <mxGraphModel dx="1298" dy="834" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
         <mxCell id="D7lvL-WImjUXsvfAOfAn-6" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;glass=0;shadow=1;sketch=0;" vertex="1" parent="1">
-          <mxGeometry x="264.53" y="320" width="238.47" height="320" as="geometry" />
+          <mxGeometry x="70.77000000000001" y="280" width="238.47" height="160" as="geometry" />
         </mxCell>
         <mxCell id="V7z8TSo9skK1t5681iLd-4" value="" style="group;rounded=0;glass=0;sketch=0;shadow=0;" parent="1" vertex="1" connectable="0">
-          <mxGeometry x="263.48" y="80" width="240" height="50" as="geometry" />
+          <mxGeometry x="70.00000000000003" y="40" width="240" height="50" as="geometry" />
         </mxCell>
         <mxCell id="ISG_djN0Bw56h7QEPoc2-1" value="&lt;span style=&quot;font-family: &amp;#34;times new roman&amp;#34; ; font-size: 18px&quot;&gt;php_swoole_runtime_minit()&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;glass=0;shadow=1;sketch=0;" parent="V7z8TSo9skK1t5681iLd-4" vertex="1">
           <mxGeometry width="240" height="50" as="geometry" />
         </mxCell>
         <mxCell id="V7z8TSo9skK1t5681iLd-9" value="" style="group;rounded=0;glass=0;sketch=0;shadow=0;" parent="1" vertex="1" connectable="0">
-          <mxGeometry x="263.48" y="160" width="240" height="50" as="geometry" />
+          <mxGeometry x="70.00000000000003" y="120" width="240" height="50" as="geometry" />
         </mxCell>
         <mxCell id="V7z8TSo9skK1t5681iLd-10" value="&lt;span style=&quot;font-family: &amp;#34;times new roman&amp;#34; ; font-size: 18px&quot;&gt;PHPCoroutine::activate()&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;glass=0;shadow=1;sketch=0;" parent="V7z8TSo9skK1t5681iLd-9" vertex="1">
           <mxGeometry width="240" height="50" as="geometry" />
@@ -25,38 +25,23 @@
         <mxCell id="D7lvL-WImjUXsvfAOfAn-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="V7z8TSo9skK1t5681iLd-10" target="D7lvL-WImjUXsvfAOfAn-2">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="D7lvL-WImjUXsvfAOfAn-16" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="D7lvL-WImjUXsvfAOfAn-2" target="D7lvL-WImjUXsvfAOfAn-8">
+        <mxCell id="D7lvL-WImjUXsvfAOfAn-29" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="D7lvL-WImjUXsvfAOfAn-2" target="D7lvL-WImjUXsvfAOfAn-19">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="D7lvL-WImjUXsvfAOfAn-2" value="&lt;span style=&quot;font-family: &amp;#34;times new roman&amp;#34; ; font-size: 18px&quot;&gt;PHPCoroutine::enable_hook(int flags)&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;glass=0;shadow=1;sketch=0;" vertex="1" parent="1">
-          <mxGeometry x="233.48" y="240" width="300" height="50" as="geometry" />
-        </mxCell>
-        <mxCell id="D7lvL-WImjUXsvfAOfAn-12" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="D7lvL-WImjUXsvfAOfAn-8" target="D7lvL-WImjUXsvfAOfAn-11">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="D7lvL-WImjUXsvfAOfAn-20" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="D7lvL-WImjUXsvfAOfAn-8" target="D7lvL-WImjUXsvfAOfAn-19">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="D7lvL-WImjUXsvfAOfAn-8" value="&lt;font style=&quot;font-size: 15px&quot; face=&quot;Times New Roman&quot;&gt;是否需要HOOK&lt;/font&gt;" style="rhombus;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;" vertex="1" parent="1">
-          <mxGeometry x="296.98" y="340" width="173" height="70" as="geometry" />
-        </mxCell>
-        <mxCell id="D7lvL-WImjUXsvfAOfAn-11" value="&lt;font face=&quot;Times New Roman&quot; style=&quot;font-size: 18px&quot;&gt;Return&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
-          <mxGeometry x="520" y="357.5" width="66.52" height="35" as="geometry" />
-        </mxCell>
-        <mxCell id="D7lvL-WImjUXsvfAOfAn-13" value="&lt;font face=&quot;Times New Roman&quot; style=&quot;font-size: 18px&quot;&gt;N&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="463.48" y="350" width="40" height="20" as="geometry" />
+          <mxGeometry x="40" y="200" width="300" height="50" as="geometry" />
         </mxCell>
         <mxCell id="D7lvL-WImjUXsvfAOfAn-15" value="&lt;font face=&quot;Times New Roman&quot; style=&quot;font-size: 18px&quot;&gt;hook_func(const char* name)&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="278.48" y="600" width="223" height="20" as="geometry" />
+          <mxGeometry x="78.50000000000003" y="450" width="223" height="20" as="geometry" />
         </mxCell>
         <mxCell id="D7lvL-WImjUXsvfAOfAn-18" value="" style="group;rounded=0;glass=0;sketch=0;shadow=0;" vertex="1" connectable="0" parent="1">
-          <mxGeometry x="278.48" y="450" width="210" height="50" as="geometry" />
+          <mxGeometry x="85.00000000000003" y="300" width="210" height="50" as="geometry" />
         </mxCell>
         <mxCell id="D7lvL-WImjUXsvfAOfAn-19" value="&lt;font face=&quot;times new roman&quot;&gt;&lt;span style=&quot;font-size: 18px&quot;&gt;替换EG(function_table)中的Swoole Hook 回调&lt;/span&gt;&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;glass=0;shadow=1;sketch=0;" vertex="1" parent="D7lvL-WImjUXsvfAOfAn-18">
           <mxGeometry width="210" height="50" as="geometry" />
         </mxCell>
         <mxCell id="D7lvL-WImjUXsvfAOfAn-21" value="" style="group;rounded=0;glass=0;sketch=0;shadow=0;" vertex="1" connectable="0" parent="1">
-          <mxGeometry x="278.48" y="535" width="210" height="50" as="geometry" />
+          <mxGeometry x="85.00000000000003" y="370" width="210" height="50" as="geometry" />
         </mxCell>
         <mxCell id="D7lvL-WImjUXsvfAOfAn-22" value="&lt;font face=&quot;times new roman&quot;&gt;&lt;span style=&quot;font-size: 18px&quot;&gt;检查新Hook函数有效性&lt;/span&gt;&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;glass=0;shadow=1;sketch=0;" vertex="1" parent="D7lvL-WImjUXsvfAOfAn-21">
           <mxGeometry width="210" height="50" as="geometry" />
@@ -64,14 +49,20 @@
         <mxCell id="D7lvL-WImjUXsvfAOfAn-23" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="D7lvL-WImjUXsvfAOfAn-19" target="D7lvL-WImjUXsvfAOfAn-22">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="D7lvL-WImjUXsvfAOfAn-24" value="&lt;font face=&quot;Times New Roman&quot; style=&quot;font-size: 18px&quot;&gt;Y&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="394" y="420" width="40" height="20" as="geometry" />
+        <mxCell id="D7lvL-WImjUXsvfAOfAn-25" value="&lt;font style=&quot;font-size: 18px;&quot; face=&quot;Times New Roman&quot;&gt;Swoole Runtime初始化时，定义了所有可以Hook的IO大类（Hook Flag）&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=18;" vertex="1" parent="1">
+          <mxGeometry x="393.03999999999996" y="40" width="260" height="50" as="geometry" />
         </mxCell>
-        <mxCell id="D7lvL-WImjUXsvfAOfAn-25" value="&lt;font style=&quot;font-size: 16px&quot; face=&quot;Times New Roman&quot;&gt;Swoole Runtime初始化时，定义了所有可以Hook的IO方法的枚举常量。&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="586.52" y="80" width="260" height="50" as="geometry" />
+        <mxCell id="D7lvL-WImjUXsvfAOfAn-26" value="&lt;font face=&quot;Times New Roman&quot; style=&quot;font-size: 18px;&quot;&gt;&lt;span style=&quot;font-size: 18px;&quot;&gt;初始化协程调度环境时，读取需要Swoole替换的Hook Flag&lt;/span&gt;&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=18;" vertex="1" parent="1">
+          <mxGeometry x="393.03999999999996" y="120" width="260" height="50" as="geometry" />
         </mxCell>
-        <mxCell id="D7lvL-WImjUXsvfAOfAn-26" value="&lt;font face=&quot;Times New Roman&quot;&gt;&lt;span style=&quot;font-size: 16px&quot;&gt;初始化协程调度环境时，读取需要Swoole替换的Hook函数列表&lt;/span&gt;&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="586.52" y="160" width="260" height="50" as="geometry" />
+        <mxCell id="D7lvL-WImjUXsvfAOfAn-27" value="&lt;font face=&quot;Times New Roman&quot; style=&quot;font-size: 18px;&quot;&gt;&lt;span style=&quot;font-size: 18px;&quot;&gt;针对不同的Hook Flag，对其下所有的IO方法进行函数替换&lt;/span&gt;&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=18;" vertex="1" parent="1">
+          <mxGeometry x="393.03999999999996" y="200" width="260" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="D7lvL-WImjUXsvfAOfAn-28" value="&lt;font face=&quot;Times New Roman&quot; style=&quot;font-size: 18px;&quot;&gt;&lt;span style=&quot;font-size: 18px;&quot;&gt;替换原Hook方法为Swoole版本：&lt;br style=&quot;font-size: 18px;&quot;&gt;e.g. curl_init =&amp;gt; swoole_curl_init&lt;br style=&quot;font-size: 18px;&quot;&gt;&lt;/span&gt;&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=18;" vertex="1" parent="1">
+          <mxGeometry x="393.03999999999996" y="300" width="260" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="D7lvL-WImjUXsvfAOfAn-30" value="&lt;font face=&quot;Times New Roman&quot; style=&quot;font-size: 18px&quot;&gt;&lt;span style=&quot;font-size: 18px&quot;&gt;报错抛出 function not callable异常&lt;br style=&quot;font-size: 18px&quot;&gt;&lt;/span&gt;&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=18;" vertex="1" parent="1">
+          <mxGeometry x="384.56" y="370" width="276.96" height="50" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
